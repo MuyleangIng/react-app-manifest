@@ -16,7 +16,7 @@ spec:
         - name: react-app
           image: muyleangin/react-app:latest
           ports:
-            - containerPort: 5173
+            - containerPort: 80
           env:
             - name: NODE_ENV
               value: "production"
